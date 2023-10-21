@@ -1,4 +1,4 @@
-# CSS Masterclass Course
+# CSS HOW TO DO IT COURSE
 
 Welcome to the CSS How to do  repository! This repository contains a comprehensive course on both basic and advanced CSS topics, designed to help you become a CSS wizard.
 
