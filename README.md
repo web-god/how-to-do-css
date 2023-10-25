@@ -23,6 +23,7 @@ This course covers a wide range of CSS topics, including:
 - How to create Animation
 - How to Create Image Hover Effect
 - How to flip an image
+- How to create responsive image gallery
 
 ## Getting Started
 

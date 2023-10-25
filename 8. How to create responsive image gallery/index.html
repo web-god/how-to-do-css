@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to create responsive image gallery</title>
+    <link rel="stylesheet" href="../default.css" />
+    <style>
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      #container > div {
+        margin: 0px 20px;
+        border: 2px solid black;
+      }
+
+      #container > div:hover{
+        border:2px solid red;
+        cursor: pointer;
+      }
+
+      .text {
+        padding: 10px;
+      }
+
+      @media only screen and (max-width: 250px) {
+        #container > div {
+          margin: 0px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="padding: 20px">Responsive Image Gallery</h1>
+    <h3 style="padding: 10px 20px">
+      Resize the browser window to see the effect.
+    </h3>
+    <div id="container">
+      <div class="image-box">
+        <img src="img1.jpg" alt="" width="250px" height="200px" />
+        <div class="text">Add a description of the image here</div>
+      </div>
+      <div class="image-box">
+        <img src="img2.jpg" alt="" width="250px" height="200px" />
+        <div class="text">Add a description of the image here</div>
+      </div>
+      <div class="image-box">
+        <img src="img3.jpg" alt="" width="250px" height="200px" />
+        <div class="text">Add a description of the image here</div>
+      </div>
+      <div class="image-box">
+        <img src="img4.jpg" alt="" width="250px" height="200px" />
+        <div class="text">Add a description of the image here</div>
+      </div>
+      <div class="image-box">
+        <img src="img5.jpg" alt="" width="250px" height="200px" />
+        <div class="text">Add a description of the image here</div>
+      </div>
+    </div>
+  </body>
+</html>
