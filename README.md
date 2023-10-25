@@ -22,6 +22,7 @@ This course covers a wide range of CSS topics, including:
 - How to create 3D Transition
 - How to create Animation
 - How to Create Image Hover Effect
+- How to flip an image
 
 ## Getting Started
 
