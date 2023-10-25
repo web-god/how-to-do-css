@@ -17,7 +17,11 @@ CSS (Cascading Style Sheets) is a fundamental web technology that controls the v
 
 This course covers a wide range of CSS topics, including:
 - How to add border Image
-- How to create gradients 
+- How to create gradients
+- How to add shadows
+- How to create 3D Transition
+- How to create Animation
+- How to Create Image Hover Effect
 
 ## Getting Started
 
