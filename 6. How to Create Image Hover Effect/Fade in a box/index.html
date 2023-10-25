@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Create Image Hover Effect 2</title>
+    <link rel="stylesheet" href="../default.css" />
+    <style>
+      .container {
+      
+        position:absolute;
+        height: auto;
+        margin: 20px;
+      }
+      .overlay {
+        background-color: #3c7993;
+        color: white;
+        font-size: 30px;
+
+        width: 765px;
+        height: 761px;
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transition: opacity 500ms;
+      }
+
+      button {
+        padding: 15px 40px;
+        background-color: rgb(42, 188, 91);
+        position: absolute;
+        top: 45%;
+        left: 42%;
+        color:white;
+        border: none;
+        opacity: 0;
+      }
+
+      .container:hover .overlay {
+        width: 765px;
+        height: 761px;
+
+        opacity: 0.7;
+      }
+
+      .container:hover button {
+        opacity: 1;
+       
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="../user.png" alt="" />
+      <div class="overlay"></div>
+     <button>Hello</button>
+    </div>
+  </body>
+</html>
